@@ -2,7 +2,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href=./file/CV.pdf style="font-family: Arial, sans-serif; font-size: 25; font-weight: bold; color: blue; text-decoration: none;">CV</a> &nbsp; <b>\\</b> &nbsp; 
 <a href="https://github.com/Levi-ZJY" style="font-family: Arial, sans-serif; font-size: 25; font-weight: bold; color: blue; text-decoration: none;">Github</a> &nbsp; <b>\\</b> &nbsp;
-<a href="www.linkedin.com/in/junyi-zhang-levi" style="font-family: Arial, sans-serif; font-size: 25; font-weight: bold; color: blue; text-decoration: none;">Linkedin</a>
+<a href="https://www.linkedin.com/in/junyi-zhang-levi/" style="font-family: Arial, sans-serif; font-size: 25; font-weight: bold; color: blue; text-decoration: none;">Linkedin</a>
 
 
 
