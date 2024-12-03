@@ -15,7 +15,7 @@
 
 
 #### Email
-- <a href="mailto:JunyiZhang2002@gmail.com" style="text-decoration: none;">JunyiZhang2002@gmail.com</a>
+- <a href="mailto:JunyiZhang2002@gmail.com" style="text-decoration: none;">JunyiZhang2002@gmail</a>
 
 #### Education
 
