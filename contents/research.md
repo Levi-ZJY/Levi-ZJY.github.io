@@ -1,6 +1,6 @@
 
 - <span style="font-weight: bold;">Institute of Automation, Chinese Academy of Science</span> <br>
-National Laboratory of Pattern Recognition <br>
+National Laboratory of Pattern Recognition (NLPR) <br>
 &nbsp;&nbsp; &#9632; Related fields: <span style="font-weight: bold;">Data Mining, AI4Science</span> <br>
 &nbsp;&nbsp; &#9632; Topic: Docking Based on Protein Binding Pockets Similarity 
 
