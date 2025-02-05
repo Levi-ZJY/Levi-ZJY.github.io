@@ -1,7 +1,7 @@
 
 <span style="font-weight: bold;">SCHOLARSHIPS:</span>
 
-- National Scholarship of China, 2023.
+- National Scholarship of China (Awarded to 0.2% of students nationwide), 2023.
 
 - Champion's Scholarship at USTB (Top 1 in CS department), 2022.
 
