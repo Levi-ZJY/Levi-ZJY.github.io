@@ -8,6 +8,8 @@
 
 - I am a Master's student at <span style="color: #0081d1;">University of California, Los Angeles</span> Electrical and Computer Engineering program.
 
+- Now, I am working in <span style="color: #0081d1;">PLUS Lab</span> and UCLA NLP Lab in the Computer Science department, advised by <span style="color: #0081d1;">Prof. Nanyun Peng</span>. It is a privilege to work with many supportive and talented people in the lab.
+
 - Previously, I worked at the <span style="color: #0081d1;">National Laboratory of Pattern Recognition (NLPR)</span> at <span style="color: #0081d1;">Institute of Automation, Chinese Academy of Sciences</span> advised by Prof. <span style="color: #0081d1;">Shu Wu</span> and Prof. <span style="color: #0081d1;">Qiang Liu</span>.
 
 - Before that, I worked at <span style="color: #0081d1;">Pattern Recognition and AI Technology Innovation Lab</span> at University of Science and Technology Beijing advised by Prof. <span style="color: #0081d1;">Xucheng Yin</span> and Prof. <span style="color: #0081d1;">Chun Yang</span>. I earned my bachelor's degree in computer science at the University of Science and Technology Beijing. 
