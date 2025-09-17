@@ -12,7 +12,7 @@
 
 - Previously, I worked at the <span style="color: #0081d1;">National Laboratory of Pattern Recognition (NLPR)</span> at <span style="color: #0081d1;">Institute of Automation, Chinese Academy of Sciences</span> advised by Prof. <span style="color: #0081d1;">Shu Wu</span> and Prof. <span style="color: #0081d1;">Qiang Liu</span>.
 
-- Before that, I worked at <span style="color: #0081d1;">Pattern Recognition and AI Technology Innovation Lab</span> at University of Science and Technology Beijing advised by Prof. <span style="color: #0081d1;">Xucheng Yin</span> and Prof. <span style="color: #0081d1;">Chun Yang</span>. I earned my bachelor's degree in computer science at the University of Science and Technology Beijing. 
+- Before that, I worked at <span style="color: #0081d1;">Pattern Recognition and AI Technology Innovation Lab</span> at University of Science and Technology Beijing advised by Prof. <span style="color: #0081d1;">Xucheng Yin</span> and Prof. <span style="color: #0081d1;">Chun Yang</span>.
 
 
 
@@ -23,6 +23,8 @@
 
 - MS, Electrical and Computer Engineering, University of California, Los Angeles, 2024-2026 (expected).
 - BS, Computer Science, University of Science and Technology Beijing, 2020-2024.
+  - National Scholarship of China (Awarded to 0.2% of students nationwide)
+  - Champion's Scholarship (Top 1 in CS department)
 
 
 
