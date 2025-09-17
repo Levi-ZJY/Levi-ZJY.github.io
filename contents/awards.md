@@ -14,6 +14,9 @@
 
 - MCM/ICM, Honorable Mention
 
-- Mathematics Competition of Chinese College Students, 1st Prize in Beijing
+- National Undergraduate Physics Competition, 1st Prize, Beijing Physics Society
 
-- Physics Competition of Chinese College Students, 1st Prize in Beijing
+- National Undergraduate Mathematics Competition, 1st Prize, Beijing Mathematics Society
+
+
+
