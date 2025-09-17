@@ -24,7 +24,7 @@
 - MS, Electrical and Computer Engineering, University of California, Los Angeles, 2024-2026 (expected).
 - BS, Computer Science, University of Science and Technology Beijing, 2020-2024.
   - <span style="font-size:smaller;">National Scholarship of China (Awarded to 0.2% of students nationwide)</span>
-  - <span style="font-size:smaller;">Champion's Scholarship (Top 1 / 278 in CS department)</span>
+  - <span style="font-size:smaller;">Champion's Scholarship (Awarded to Top 1 / 278 in CS department)</span>
 
 
 
