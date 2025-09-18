@@ -1,190 +1,300 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Academic Webpage" />
-    <meta name="author" content="senli1073" />
-    <title id="title"></title>
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@700&family=Open+Sans:wght@700&family=Playfair+Display:wght@700&family=Poppins:wght@700&family=Roboto:wght@700&family=Lora:wght@700&family=Oswald:wght@700&family=Raleway:wght@700&family=Pacifico&display=swap"
+    rel="stylesheet">
 
-    <!-- Icon -->
-    <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
+  <style type="text/css">
+    /* Design Credits: Jon Barron and Deepak Pathak and Tairan He*/
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
 
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    a {
+      color: #1772d0;
+      text-decoration: none;
+    }
 
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
-        rel="stylesheet" />
+    a:focus,
+    a:hover {
+      color: #f09228;
+      text-decoration: none;
+    }
 
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
-    <link type="text/css" href="static/css/main.css" rel="stylesheet" />
+    body,
+    td,
+    th {
+      font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 400
+    }
 
-    <!-- Bootstrap core JS-->
-    <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
+    heading {
+      font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+      font-size: 17px;
+      /* 19 */
+      font-weight: 600
+        /* 1000 */
+    }
 
-    <!-- For Compatability -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    
-    <!-- Markdown -->
-    <script type="text/javascript" src="static/js/marked.min.js"></script>
+    hr {
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
 
-    <!-- Mathematics -->
-    <script>
-        // See https://docs.mathjax.org/en/latest/index.html for more details.
-        MathJax = {
-            tex: {
-                packages: {},              // extensions to use
-                inlineMath: [              // start/end delimiter pairs for in-line math
-                    ['$', '$'],
-                    ['\\(', '\\)']
-                ],
-                displayMath: [             // start/end delimiter pairs for display math
-                    ['$$', '$$'],
-                    ['\\[', '\\]']
-                ],
-                processEscapes: false,      // use \$ to produce a literal dollar sign
-                processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
-                processRefs: true,         // process \ref{...} outside of math mode
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    // pattern for recognizing numbers
-                tags: 'all',              // or 'ams' or 'all'
-                tagSide: 'right',          // side for \tag macros
-                tagIndent: '0.8em',        // amount to indent tags
-                useLabelIds: true,         // use label name rather than tag for ids
-                maxMacros: 10000,          // maximum number of macro substitutions per expression
-                maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
-                // baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)
-                // (document.getElementsByTagName('base').length === 0) ? '' : String(document.location).replace(/#.*$/, ''),
-                formatError:               // function called when TeX syntax errors occur
-                    (jax, err) => jax.formatError(err)
-            }
-        };
-    </script>
-    <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    
-    <!-- Core JS-->
-    <script type="text/javascript" src="static/js/scripts.js"></script>
-    <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
+    strong {
+      font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 600
+        /* 800 */
+    }
 
+    strongred {
+      font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+      color: 'red';
+      font-size: 16px
+    }
+
+    sectionheading {
+      font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+      font-size: 22px;
+      font-weight: 600
+    }
+
+    pageheading {
+      font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+      font-size: 38px;
+      font-weight: 400
+    }
+
+    .ImageBorder {
+      border-width: 1px;
+      border-color: Black;
+    }
+
+    .title-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* Select the desired font family for the English name */
+    .title-container .english-name {
+      font-family: 'Merriweather', serif;
+      /* Change 'Poppins' to any font from the list above */
+      font-size: 0.9em;
+      margin: 0;
+    }
+
+    /* Select the desired font family for the Chinese name */
+    .title-container .chinese-name {
+      font-family: 'LXGW WenKai', cursive;
+      font-weight: 700;
+      font-size: 1.1em;
+      color: #2c3e50;
+      text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+
+  <link rel="shortcut icon" href="images/apple-touch-ri-logo-white-120x120.png">
+  <script type="text/javascript" src="js/hidebib.js"></script>
+  <title>Junyi Zhang</title>
+  <meta name="Junyi Zhang's Homepage" http-equiv="Content-Type" content="Junyi Zhang's Homepage">
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic'
+    rel='stylesheet' type='text/css'>
+
+
+  <script src="js/scramble.js"></script>
+
+  <link rel="icon" href="images/emoticon_plant.gif" type="`image/gif">
 </head>
 
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-        <div class="container px-5">
-            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
-                <i class="bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#page-top">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#research">RESEARCH</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
-                    </li>
+<body>
+  <div class="title-container" style="margin-bottom: 10px;">
+    <h1><span class="english-name">Junyi Zhang</span>&nbsp;&nbsp;&nbsp;&nbsp;
 
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont/style.css" />
+ 
+
+
+  </div>
+  <table
+    style="width:100%;max-width:820px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:5px;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:2.5%;width:60%;vertical-align:middle;">
+                  <p>
+                    ➤ I am a Master's student at <span style="color: #0081d1;">University of California, Los Angeles (UCLA)</span>.
+                  </p>
+
+                  <p>
+                    ➤ I am currently working in <span style="color: #0081d1;">PLUS Lab</span> and UCLA NLP Lab in the Computer Science Department at UCLA, advised by Prof. <span style="color: #0081d1;">Nanyun Peng</span>. It is a privilege to work with many supportive and talented people in the lab.
+                  </p>
+
+                  <p>
+                    ➤ My research interests lie in <span style="color: #0081d1;">LLMs, Retrieval-Augmented LMs, LVLMs</span>.
+                  </p>
+                  
+                  <p style="text-align:left; margin-top:15px; font-size:1.1rem; font-weight:bold;">
+                    <a href="">CV</a> &nbsp/&nbsp
+                    <a href="https://github.com/Levi-ZJY">Github</a> &nbsp/&nbsp
+                    <a href="https://www.linkedin.com/in/junyi-zhang-levi/">Linkedin</a>
+                  </p>
+                </td>
+                <td style="padding:1%;width:40%;max-width:40%;vertical-align:middle">
+                  <a href="file/img/myphoto.png"><img style="width:65%;max-width:65%" alt="profile photo"
+                      src="file/img/myphoto.png" class="hoverZoomLink"></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          <!--************************************* Research Experience *************************************************-->
+
+          <hr style="margin: 30px 0;">
+
+          <section style="max-width:800px;margin:0 auto;padding:0px;line-height:1.7;">
+            <h3 style="font-size:1.3rem; font-weight:bold;">Research Experience</h3>
+            <ul>
+              <li>
+                <strong>University of California, Los Angeles</strong><br>
+                PLUS Lab, advised by Prof. <strong style="color:#0081d1;">Nanyun Peng</strong>.<br>
+                <span style="margin-left:1em;">&#9632; Related fields: 
+                  <strong style="color:#0081d1;">LLMs, Retrieval-Augmented LMs, LVLMs</strong>
+                </span>
+              </li>
+              <br>
+              <li>
+                <strong>Institute of Automation, Chinese Academy of Science</strong><br>
+                National Laboratory of Pattern Recognition, advised by Prof. <strong style="color:#0081d1;">Shu Wu</strong> and Prof. <strong style="color:#0081d1;">Qiang Liu</strong>.<br>
+                <span style="margin-left:1em;">&#9632; Related fields: 
+                  <strong style="color:#0081d1;">Data Mining, AI4Science, Diffusion Model</strong>
+                </span>
+              </li>
+              <br>
+              <li>
+                <strong>University of Science and Technology Beijing</strong><br>
+                Pattern Recognition Lab, advised by Prof. <strong style="color:#0081d1;">Xucheng Yin</strong> and Prof. <strong style="color:#0081d1;">Chun Yang</strong>.<br>
+                <span style="margin-left:1em;">&#9632; Related fields: 
+                  <strong style="color:#0081d1;">Optical Character Recognition (OCR), CV, NLP</strong>
+                </span>
+              </li>
+            </ul>
+          </section>
+
+          <!--************************************* Publications *************************************************-->
+
+
+          <hr style="margin: 30px 0;">
+
+
+          
+
+          <section style="max-width:800px;margin:0 auto;padding:0px;line-height:1.8;">
+            <h3 style="font-size:1.3rem; font-weight:bold;">Publications</h3>
+
+
+            <ul style="list-style-type:none; margin:0; padding:0;">
+              <li style="margin-bottom:15px;">
+                <a href="">
+                  <strong>TemMed-Bench: Evaluating Temporal Medical Image Reasoning in Vision-Language Models</strong>
+                </a>
+                <br>
+                <strong>Junyi Zhang</strong>, Jia-Chen Gu, Wenbo Hu, Yu Zhou, Robinson Piramuthu, Nanyun Peng
+                <!-- <br>
+                <em><strong>arXiv preprint</strong></em> -->
+                <br>
+                <a href="">[paper]</a> | 
+                <a href="">[code]</a>
+              </li>
+            </ul>
+
+
+            <ul style="list-style-type:none; margin:0; padding:0;">
+              <li style="margin-bottom:15px;">
+                <a href="https://arxiv.org/abs/2411.06381">
+                  <strong>SAN: Structure-Aware Network for Complex and Long-Tailed Chinese Text Recognition</strong>
+                </a>
+                <br>
+                <strong>Junyi Zhang</strong>, Chang Liu, Chun Yang
+                <!-- <br>
+                <em><strong>International Conference on Document Analysis and Recognition (ICDAR)</strong></em> -->
+                <br>
+                <a href="https://arxiv.org/abs/2411.06381">[paper]</a> | 
+                <a href="https://github.com/Levi-ZJY/SAN">[code]</a>
+              </li>
+            </ul>
+          </section>
+
+          
+
+          <!--************************************* Education *************************************************-->
+
+          <hr style="margin: 30px 0;">
+
+
+          <section style="max-width:800px;margin:0 auto;padding:0px;line-height:1.8;">
+            <h3 style="font-size:1.3rem; font-weight:bold;">Education</h3>
+            <ul>
+              <li>
+                <strong>MS, Electrical and Computer Engineering</strong>, University of California, Los Angeles, 
+                <em>2024–2026 (expected)</em>
+              </li>
+              <li>
+                <strong>BS, Computer Science</strong>, University of Science and Technology Beijing, 2020–2024
+                <ul style="margin:0px 0 0 1.25em; list-style-type:circle; line-height:1.7;">
+                  <li><span">
+                    National Scholarship of China (Awarded to <strong>0.2%</strong> of students nationwide)
+                  </span></li>
+                  <li><span">
+                    Champion's Scholarship (Awarded to <strong>Top 1/278</strong> in CS department)
+                  </span></li>
                 </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');">
-        <div class="top-section-content">
-            <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
-            </div>
-        </div>
-    </section>
-    <!-- Top Section -->
-
-    <!-- Photo -->
-    <div class="container px-5">
-        <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.png">
-        </div>
-    </div>
-    <!-- Photo -->
-    
-    <!-- Home -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home" style="padding-top: 1px; padding-bottom: 1px;">
-        <div class="container px-5">
-            <header>
-                <h2 id="home-subtitle" style="color: black;"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
-            </header>
-            <div class="main-body" id="home-md"></div>
-        </div>
-    </section>
-    <!-- Home -->
-
-    <!-- Research -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="research" style="padding-top: 1px; padding-bottom: 1px;">
-        <div class="container px-5">
-            <header>
-                <h2 id="research-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;RESEARCH</h2>
-            </header>
-            <div class="main-body" id="research-md"></div>
-
-        </div>
-    </section>
-    <!-- Research  -->
-
-    <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="publications" style="padding-top: 1px; padding-bottom: 1px;">
-        <div class="container px-5">
-            <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
-            </header>
-            <div class="main-body" id="publications-md"></div>
-
-        </div>
-    </section>
-    <!-- Publications  -->
-
-    <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="awards" style="padding-top: 1px; padding-bottom: 1px;">
-        <div class="container px-5">
-            <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
-            </header>
-            <div class="main-body" id="awards-md"></div>
-
-        </div>
-    </section>
-    <!-- Awards -->
+              </li>
+            </ul>
+          </section>
 
 
-    <!-- Footer-->
-    <footer class="bg-bottom text-center py-5">
-        <div class="container px-5">
-            <div class="text-white-50 small">
-                <div id="copyright-text" class="mb-2"></div>
-                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
-            </div>
-        </div>
-    </footer>
+          <!--************************************* Awards *************************************************-->
+          <hr style="margin: 30px 0;">
 
+
+          <section style="max-width:800px;margin:0 auto;padding:0px;line-height:1.8;">
+            <h3 style="font-size:1.3rem; font-weight:bold;">Awards</h2>
+
+            <h3 style="margin:12px 0 8px;">Scholarships</h3>
+            <ul style="margin:0; padding-left:1.25em;">
+              <li><span>National Scholarship of China (Awarded to 0.2% of students nationwide)</span></li>
+              <li><span>Champion's Scholarship (Top 1 in CS department)</span></li>
+              <li><span>University-Level First-Class Scholarship</span></li>
+            </ul>
+
+            <h3 style="margin:20px 0 8px;">Competition Awards</h3>
+            <ul style="margin:0; padding-left:1.25em;">
+              <li><span>National AI Board Game Tournament, National 2nd Prize</span></li>
+              <li><span>MCM/ICM, Honorable Mention</span></li>
+              <li><span>National Undergraduate Physics Competition, 1st Prize, Beijing Physics Society</span></li>
+              <li><span>National Undergraduate Mathematics Competition, 1st Prize, Beijing Mathematics Society</span></li>
+            </ul>
+          </section>
+
+
+
+
+
+
+
+          <div style="height:120px;"></div>
 </body>
 
 </html>
