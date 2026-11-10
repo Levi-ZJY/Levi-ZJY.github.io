@@ -57,9 +57,6 @@ main { min-width: 0; }
 .content-section { border-top: 1px solid var(--line); padding-top: 32px; margin-top: 8px; }
 .section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; margin-bottom: 22px; }
 .section-heading h2 { font-family: var(--serif); color: var(--ink); font-size: 29px; font-weight: 400; letter-spacing: -.7px; line-height: 1.4; }
-.publication-nav { display: flex; gap: 24px; padding-bottom: 20px; }
-.publication-nav a { display: inline-flex; gap: 10px; align-items: center; font-size: 12px; font-weight: 500; }
-.publication-nav span { color: var(--muted); font-size: 10px; font-variant-numeric: tabular-nums; }
 .group-heading { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; padding: 13px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .group-heading h3 { font-size: 14px; font-weight: 600; color: var(--ink); }
 .paper-list { padding: 0; margin: 0; list-style: none; }
@@ -96,9 +93,6 @@ main { min-width: 0; }
 .education-date span { display: block; font-size: 10px; }
 .education-details h3 { color: var(--ink); font-size: 13px; line-height: 1.65; font-weight: 600; }
 .education-details > p { font-size: 12px; margin-top: 3px; }
-.education-honors { margin: 11px 0 0; padding-left: 14px; color: var(--muted); font-size: 11px; }
-.education-honors span { color: var(--accent); display: block; font-size: 10px; }
-.education-honors li + li { margin-top: 5px; }
 .awards-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; }
 .award-category { color: var(--accent); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 17px; }
 .award-list { padding: 0; margin: 0; list-style: none; }
@@ -177,7 +171,7 @@ main { min-width: 0; }
 }
 @media print {
   body { background: #fff; font-size: 11px; }
-  .site-header, .skip-link, .publication-nav, .site-footer a { display: none; }
+  .site-header, .skip-link, .site-footer a { display: none; }
   .page-layout { display: block; max-width: none; padding: 0; }
   .profile { position: static; display: flex; gap: 24px; margin-bottom: 24px; }
   .portrait-link, .portrait { width: 100px; height: 130px; }
